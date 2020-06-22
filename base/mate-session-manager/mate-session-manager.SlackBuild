@@ -89,6 +89,7 @@ CXXFLAGS="$SLKCFLAGS" \
   --docdir=/usr/doc/$PRGNAM-$VERSION \
   --libexecdir=/usr/lib${LIBDIRSUFFIX} \
   --without-systemd \
+  --with-elogind \
   --build=$ARCH-slackware-linux
 
 make
